@@ -3,6 +3,13 @@ name = "rs-wikibzip2pages"
 version = "0.1.0"
 edition = "2024"
 
+description = "Extract Wikipedia page tags from concatenated bzip2 files."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-wikibzip2pages"
+homepage = "https://github.com/takanoriyanagitani/rs-wikibzip2pages"
+documentation = "https://docs.rs/rs-wikibzip2pages/latest"
+keywords = ["bzip2", "wikidump", "extract", "pages", "offset"]
+
 [dependencies.bzip2]
 version = "0"
 default-features = false
